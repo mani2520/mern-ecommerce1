@@ -1,1 +1,75 @@
 @import "tailwindcss";
+
+@theme {
+  /* Primary Shades (Base: #67C090) */
+  --color-primary: #67c090;
+  --color-primary-50: #eefaf4;
+  --color-primary-100: #dbf4e7;
+  --color-primary-500: #67c090;
+  --color-primary-600: #59a87e;
+  --color-primary-700: #4a906f;
+  --color-primary-900: #2d5a46;
+
+  /* Secondary Shades (Base: #DDF4E7) */
+  --color-secondary: #ddf4e7;
+  --color-secondary-600: #c3e8d4;
+
+  /* Accent Shades (Base: #26667F) */
+  --color-accent: #26667f;
+  --color-accent-600: #1f5266;
+
+  /* Info (Your custom dark blue #124170) */
+  --color-info: #124170;
+
+  /* Status Colors */
+  --color-success: #4ade80;
+  --color-error: #f87171;
+  --color-warning: #fbbf24;
+
+  /* Backgrounds */
+  --color-bg: #f8fcf9;
+  --color-bg-secondary: #eef7f3;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f0f8f5;
+
+  /* Text Colors */
+  --color-text: #1e3a39;
+  --color-text-secondary: #4a635f;
+  --color-muted: #84a69c;
+
+  /* Border */
+  --color-border: #d5ede4;
+}
+
+:root {
+  --color-primary: #67c090; /* Fresh green */
+  --color-secondary: #ddf4e7; /* Light pastel mint */
+  --color-accent: #26667f; /* Deep teal */
+
+  --color-info: #124170; /* Dark blue (your choice) */
+
+  --color-success: #52b788; /* Smooth green */
+  --color-error: #e63946; /* Soft red */
+  --color-warning: #f4a261; /* Warm amber */
+
+  --color-bg: #f8fcf9; /* Lite pastel background */
+  --color-surface: #ffffff; /* Clean white card */
+  --color-surface-hover: #f0f8f5; /* Soft mint hover */
+
+  --color-text: #1e3a39; /* Perfect dark greenish slate */
+  --color-text-secondary: #4a635f; /* Smooth muted text */
+
+  --color-muted: #84a69c; /* Muted slate green */
+  --color-border: #d5ede4; /* Soft mint border */
+}
+
+/* Dark Mode */
+.dark {
+  --color-bg: #0f1716;
+  --color-surface: #1a2826;
+  --color-surface-hover: #20312f;
+  --color-text: #e8fffa;
+  --color-text-secondary: #bce5d9;
+  --color-muted: #6a8f85;
+  --color-border: #2a3f3b;
+}
